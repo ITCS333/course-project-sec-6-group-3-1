@@ -1,6 +1,5 @@
 <!--
   Requirement: Create the Student View for the Weekly Breakdown
-
   Instructions:
   This page is a read-only view for students to see the plan for all weeks.
   Each week should link to its dedicated detail page.
@@ -10,10 +9,14 @@
 <head>
     <!-- TODO: Add meta tags for charset (UTF-8) and viewport
          (width=device-width, initial-scale=1.0). -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- TODO: Add a <title>, e.g., "Weekly Course Breakdown". -->
+    <title>Weekly Course Breakdown</title>
 
     <!-- TODO: Link to your CSS framework or stylesheet. -->
+    <link rel="stylesheet" href="../common/styles.css">
 
     <!-- Required: link list.js with defer so the DOM is ready before the
          script runs. -->
@@ -22,29 +25,34 @@
 <body>
 
     <!-- TODO: Create a <header> containing an <h1> "Weekly Course Breakdown". -->
+    <header>
+        <h1>Weekly Course Breakdown</h1>
+    </header>
 
     <!-- TODO: Create the <main> content area. -->
+    <main>
 
         <!-- TODO: Create a <section id="week-list-section"> to contain the
              list of week articles. The id is required by list.js. -->
+        <section id="week-list-section">
 
             <!-- list.js will inject one <article> per week here.
                  Each article follows the structure below. -->
-
             <!-- Example Week Article Structure (do NOT hardcode real data;
                  list.js fetches it from the API):
-
             <article>
                 <h2>Week 1: Introduction to HTML</h2>
                 <p>Starts on: 2025-01-13</p>
                 <p>Learn HTML fundamentals...</p>
                 <a href="details.html?id=1">View Details & Discussion</a>
             </article>
-
             Note: the href MUST be "details.html?id=<id>" so that
             details.js can read the id from the URL query string. -->
 
+        </section>
         <!-- End of #week-list-section -->
+
+    </main>
     <!-- End of <main> -->
 
 </body>
