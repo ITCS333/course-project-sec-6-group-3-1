@@ -13,7 +13,7 @@ The website covers five functional areas, each assigned to one team member.
 
 ## Live Demo
 
-> **Replit Deployment:** Update this link with your Replit deployment URL once the project is live.
+> **Replit Deployment:** https://d47d8d1e-a93b-49c4-8b99-a280339a6a66-00-2xmlc2fytasyq.sisko.replit.dev/
 
 ---
 
@@ -90,4 +90,3 @@ This project is graded automatically. The autograding system will:
 
 > Do not rename, move, or delete any files or folders.
 > The autograder expects files to be at the exact paths shown in the project structure above.
-
